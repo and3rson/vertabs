@@ -1,0 +1,27 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.vertabs {
+    flex-direction: column;
+
+    .vertabs-tab {
+        padding: 8px;
+        // border-right: 5px solid transparent;
+
+        &.vertabs-active {
+            // border-right: 5px solid #CC3E44;
+            background-color: #CC3E44;
+            color: #FFF;
+        }
+    }
+
+    .vertabs-group {
+        padding: 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vertabs",
+  "main": "./lib/vertabs",
+  "version": "0.0.1",
+  "description": "Vertical tabs over file tree (SublimeText-like)",
+  "author": "Andrew Dunai",
+  "keywords": [
+      "vertical", "tabs", "sublime", "sublime-text", "st3", "groups", "vertical-tabs", "vertabs"
+  ],
+  "repository": "https://github.com/and3rson/vertabs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
